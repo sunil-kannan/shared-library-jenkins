@@ -1,4 +1,4 @@
-def callMethod(Map config = [:]){
+def call(Map config = [:]){
     if(config.name != '' && config.dayOfWeek != ''){
         echo "Hello ${config.name}. Today is ${config.dayOfWeek}"
     }
